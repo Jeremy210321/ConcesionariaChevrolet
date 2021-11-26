@@ -1,0 +1,25 @@
+
+.estiloNuevo{
+    color:red;
+}
+.title-style{
+    color:rgb(58, 147, 206)
+}
+footer{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+.estilo{
+    width: 1000px;
+    position: relative;
+}
+.title{
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    color: white;
+}
+.meta{
+    font-size: small;
+}
