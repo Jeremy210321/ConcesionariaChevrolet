@@ -23,3 +23,34 @@ footer{
 .meta{
     font-size: small;
 }
+.logo {
+    display: flex;
+    padding-bottom: 50px;
+}
+.logo h1 {
+    padding-top: 50px; 
+    padding-left: 30px;
+}
+
+.container{
+    margin-left: 10px
+}
+.col{
+    margin-left: 50px   
+}
+.body{
+   
+    width: auto;
+    margin-left: 120px;
+}
+.Promociones{
+    display: flex;
+    padding: 20px;
+}
+.Promociones1{
+    margin-top: 20px;
+}
+.home-model-p p{
+    
+    height: 150px;
+}

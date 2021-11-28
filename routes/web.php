@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AutoController;
 use App\Http\Controllers\ContactoController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ModeloController;
 use App\Http\Controllers\PersonalController;
 use Illuminate\Support\Facades\Route;
@@ -49,12 +50,12 @@ Route::get('service',function(){
 
 // ROUTE PARA MANDAR DATOS A LA VISTA
 
-Route::get('/', function () {
-    return view('home');
-}) -> name('home');
+// Route::get('/', function () {
+//     return view('home');
+// }) -> name('home');
 
 
-
+Route::get('/',HomeController::class)->name('home');
 Route::get('modelos',ModeloController::class)->name('models');
     
 

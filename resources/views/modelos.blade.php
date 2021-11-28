@@ -36,8 +36,8 @@
     <article class="col-12 col-md-3 mb-5 mb-md-0" >
         <br>
 
-        <div class="border border-grey rounded rounded-3 overflow-hidden text-black" style="padding:15px">
-            <img src="{{$auto['img']}}" alt="" width="200" height="100">
+        <div class="border border-grey rounded rounded-3 overflow-hidden text-black" style="padding:10px">
+            <img src="{{$auto['img']}}" alt="" width="190" height="75" >
             <br>
             <p class="fw-bold mt-5 text-center">{{strtoupper($auto['Nombre'])}} </p>
            
@@ -48,7 +48,7 @@
             
             
             
-            <a class="text-red py-3 d-block text-decoration-none " href="#">Más Información</a>
+            {{-- <a class="text-red py-3 d-block text-decoration-none " href="#">Más Información</a> --}}
         </div>
     </article>
     @endforeach
